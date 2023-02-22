@@ -1,0 +1,92 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap");
+
+/* font-family: 'Fraunces', serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Plus Jakarta Sans', sans-serif; */
+
+:root {
+  /* colors */
+  --white: #ffffff;
+  --dark-blue: #13183f;
+  --light-blue: #666ca3;
+  --grey: #83869a;
+  --vivid-pink: #f74780;
+  --faded-pink: #ffa7c3;
+  /* gradients */
+  --grad-orange-pink: linear-gradient(
+    180deg,
+    rgba(240, 42, 166, 1) 0%,
+    rgba(255, 111, 72, 1) 100%
+  );
+  --grad-blue-pink: linear-gradient(
+    180deg,
+    rgba(72, 81, 255, 1) 0%,
+    rgba(240, 42, 166, 1) 100%
+  );
+  /* font */
+  --FF: "Plus Jakarta Sans", sans-serif;
+  /* box shadow */
+}
+
+/* Global Element Styles */
+body {
+  font-family: var(--FF);
+  color: var(--grey);
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--dark-blue);
+  font-weight: 800;
+}
+h1 {
+  font-size: 3.5rem;
+  line-height: 4.375rem;
+  /* 1.25 */
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 51px;
+  /* 1.275 */
+}
+h3 {
+  font-size: 2rem;
+  line-height: 40px;
+  /* 1.25 */
+}
+h4 {
+  font-size: 1.5rem;
+  line-height: 28px;
+  /* 1.16 */
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Global Class Styles */
+.BodyM {
+  font-size: 1.125rem;
+  line-height: 28px;
+  /* 1.5 */
+  font-weight: 500;
+}
+.BodyS {
+  font-size: 1rem;
+  line-height: 28px;
+  /* 1.75 */
+  font-weight: 700;
+}
