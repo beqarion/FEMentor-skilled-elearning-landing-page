@@ -239,6 +239,11 @@ body,
 html {
   overflow-x: hidden;
 }
+@media (orientation: landscape) {
+  html {
+    overflow-y: hidden;
+  }
+}
 @media screen and (min-width: 768px) {
   .hero {
     margin-bottom: 11.625rem;
