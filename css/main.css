@@ -229,13 +229,14 @@ Hero
   transform: translate(-30%, -55%);
 }
 /* special style for hiding overflow from body element */
+html,
 body,
 .hero,
 .hero-center,
 .hero-img-container {
   position: relative;
 }
-body {
+html {
   overflow-x: hidden;
 }
 @media screen and (min-width: 768px) {
@@ -351,6 +352,12 @@ Courses
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     column-gap: 30px;
+  }
+  .courses-hero {
+    background: var(--grad-orange-pink);
+    padding: 3.5rem 2rem;
+    border-radius: var(--radius);
+    box-shadow: none;
   }
 }
 @media screen and (min-width: 1180px) {
