@@ -32,6 +32,10 @@
 }
 
 /* Global Element Styles */
+html,
+body {
+  overflow-x: hidden;
+}
 body {
   font-family: var(--FF);
   color: var(--grey);
@@ -204,6 +208,8 @@ Hero
 .hero-title {
   margin: 0;
   margin-bottom: 1.625rem;
+  font-size: 2.5rem;
+  line-height: 51px;
 }
 .hero-text {
   margin: 0;
